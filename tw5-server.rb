@@ -35,7 +35,7 @@ module WEBrick
    end
 end
 
-server = WEBrick::HTTPServer.new({:Port => 8000, :DocumentRoot => root, :BindAddress => "127.0.0.1"})
+server = WEBrick::HTTPServer.new({:Port => 8000, :DocumentRoot => root, :BindAddress => "0.0.0.0"})
 
 trap "INT" do
    puts "Shutting down..."
