@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+TW5_FILE="${TW5_FILE:-index.html}"
+RUBY_BIN="${RUBY_BIN:-ruby}"
+RUBY_APP="${RUBY_APP:-run.rb}"
+WORK_DIR="${WORK_DIR:-/var/www/html}"
+CMD="$RUBY_BIN $RUBY_APP $WORK_DIR/$TW5_FILE"
+
+
+cd $WORK_DIR
+pwd
+echo $CMD
+$CMD
