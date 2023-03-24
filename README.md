@@ -15,5 +15,5 @@ Based on https://github.com/korikori/tw5_server by  korikori.
 > Copy your wiki (`index.html`) to `~/Home/develop/wiki` and run the following command.
 
 ```bash
-$ docker run -it -d -p 8000:8000 -v ~/Home/develop/wiki:/tiddlywiki songtianlun/tw5-server-docker:latest
+$ docker run -it -d -p 8000:8000 -v ~/Home/develop/wiki:/tiddlywiki songtianlun/tw5-server:latest
 ```
