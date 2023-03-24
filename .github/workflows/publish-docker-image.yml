@@ -16,7 +16,7 @@ env:
   REGISTRY: docker.io
   # <repo>
   # IMAGE_NAME: ${{ github.event.repository.name }}
-  IMAGE_NAME: tiddlywiki
+  IMAGE_NAME: tw5-server
 
 
 jobs:
